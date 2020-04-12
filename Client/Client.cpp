@@ -43,8 +43,7 @@ int main()
 	//OperationResponse response;
 	auto status = greeter_stub->SayHello(&context, request, &reply);
 	
-	// nu citisem initial ca trebuie sa fie afisat pe server
-
+	// in caz ca dorim afisare pe client
 	//if (status.ok()) {
 	//	std::cout << reply.message() << "\n";
 	//}
